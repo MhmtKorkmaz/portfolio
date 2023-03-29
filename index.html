@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="d-flex">
+        <div class="nav flex-column nav-pills container-fluid myFlex" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <div class="nav-img myFlex">
+            <img src="img/resim3.jpeg" alt="">
+          </div>
+          <div class="nav-title myFlex">
+            <a href="/index.html"><h3>Mehmet Korkmaz</h3></a>
+          </div>
+          <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Anasayfa</button>
+          <button class="nav-link" id="v-pills-hakkımda-tab" data-bs-toggle="pill" data-bs-target="#v-pills-hakkımda" type="button" role="tab" aria-controls="v-pills-hakkımda" aria-selected="false">Hakkımda</button>
+          <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Neler Yaparım?</button>
+          <button class="nav-link" id="v-pills-skills-tab" data-bs-toggle="pill" data-bs-target="#v-pills-skills" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Yeteneklerim</button>
+          <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Çalışmalarım</button>
+          <button class="nav-link" id="v-pills-iletisim-tab" data-bs-toggle="pill" data-bs-target="#v-pills-iletisim" type="button" role="tab" aria-controls="v-pills-iletisim" aria-selected="false">İletişim</button>
+          <div class="title-icon">
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href=""><i class="bi bi-github"></i></a>
+            <a href=""><i class="bi bi-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+  </header>
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+            <section class="home">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 text-center">
+                      <h5>Merhabalar Ben Mehmet Korkmaz</h5>
+                      <h1>
+                      <p class="typewriter mt-5">I'am  
+                        <span data-text="Front-End Developer., Freelancer., Bekleyici., Boş gezen."></span>
+                      </p>
+                      </h1>
+                      <p>İstanbul'da yaşıyorum.</p>
+                      <a href="#iletisim" style="font-size: 20px; background-color: rgb(184, 32, 32); border-radius: 50px 0 50px 50px; box-shadow: 0 0 25px rgb(184, 32, 32)" class="btn btn-dark mt-3">İletişim</a>
+                    </div>
+                  </div>
+                </div>
+            </section>
+          </div>
+          <div class="tab-pane fade" id="v-pills-hakkımda" role="tabpanel" aria-labelledby="v-pills-hakkımda-tab" tabindex="0">
+            <section class="about-me">
+              <div class="container">
+                <h1 class="text-center mb-5">Beni Daha Fazla Tanıyın.</h1>
+                <div class="row mt-4">
+                  <div class="col-md-7 col-lg-7 ps-lg-5">
+                    <h2>Selamlar Ben <span style="color: rgb(184, 32, 32);">Mehmet Korkmaz</span></h2>
+                    <h2>Junior Front-End Developer'ım</h2>
+                    <p>Markanıza uygun modelleme yaparak kalitenize uygun üst düzey iş çıkarma prensibiyle web site hazırlıyorum. İstekleriniz doğrultusunda en kısa zamanda sonuç çıkarmaya çalışıyorum.
+                      Bir bireyin en kıymetli varlığı zaman olduğuna inanarak çalışmalarımı bu yönde ilerletiyorum.
+                    </p>
+                    <p>Kendimi her geçen gün gelişmekte olan yazılım dünyasına hızlı şekilde adapte etmek için elinden geleni yapıyorum. 
+                      Yeni çıkan teknolojileri takip ediyor ve öğrenmeye gayret gösteriyorum. </p>
+                  </div>
+                  <div class="col-md-5 col-lg-5">
+                    <div class="ps-lg-4">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">İsim : Mehmet Korkmaz</li>
+                        <li class="list-group-item">Yaş : 30</li>
+                        <li class="list-group-item">Mail : mehmet.korkmaz9292@gmail.com</li>
+                        <li class="list-group-item">İstanbul.</li>
+                      </ul> 
+                    </div>
+                    <a href="#" class="btn btn-danger text-center">CV İndir</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+            <section class="neler-yaparim">
+              <div class="container">
+                <div class="do-title mb-5">
+                  <h1 class="text-center mb-4">Neler Yaparım</h1>
+                </div>
+                <div class="row">
+                  <div class="col-md-11 col-lg-11 mx-auto">
+                    <div class="row p-1">
+                      <div class="col-md-6 mb-4">
+                        <div class="d-flex">
+                          <div class="do-icon myFlex">
+                            <i class="bi bi-pc-display-horizontal"></i>
+                          </div>
+                          <div class="d-block">
+                            <h4>Web Dizayn</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus temporibus soluta fuga placeat maxime possimus hic explicabo ut</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <div class="d-flex">
+                          <div class="do-icon myFlex">
+                            <i class="bi bi-shop-window"></i>
+                          </div>
+                          <div class="d-block">
+                            <h4>Seo Uyumluluğu</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus temporibus soluta fuga placeat maxime possimus hic explicabo ut</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <div class="d-flex">
+                          <div class="do-icon myFlex">
+                            <i class="bi bi-pencil-fill"></i>
+                          </div>
+                          <div class="d-block">
+                            <h4>Dizayn ve Geliştirme</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus temporibus soluta fuga placeat maxime possimus hic explicabo ut</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <div class="d-flex">
+                          <div class="do-icon myFlex">
+                            <i class="bi bi-bootstrap-fill"></i>
+                          </div>
+                          <div class="d-block">
+                            <h4>Bootstrap optimizasyonu</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus temporibus soluta fuga placeat maxime possimus hic explicabo ut</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <div class="d-flex">
+                          <div class="do-icon myFlex">
+                            <i class="bi bi-buildings-fill"></i>
+                          </div>
+                          <div class="d-block">
+                            <h4>Sektör Analizi</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                              Doloribus temporibus soluta fuga placeat maxime possimus hic explicabo ut</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <div class="d-flex">
+                          <div class="do-icon myFlex">
+                            <i class="bi bi-phone-vibrate-fill"></i>
+                          </div>
+                          <div class="d-block">
+                            <h4>Mobil Uyumluluk</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus temporibus soluta fuga placeat maxime possimus hic explicabo ut</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </section>
+          </div>
+          <div class="tab-pane fade" id="v-pills-skills" role="tabpanel" aria-labelledby="v-pills-skills-tab" tabindex="0">
+            <section class="skills">
+              <div class="container">
+                <div class="skills-title">
+                  <h1 class="text-center mb-5">Yeteneklerim</h1>
+                </div>
+                <div class="row p-3">
+                  <div class="col-md-6 col-lg-6">
+                    <h5>HTML / CSS</h5>
+                    <div class="progress mb-4" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 95%">95%</div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-6">
+                    <h5>Javascript</h5>
+                    <div class="progress mb-4" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 60%">60%</div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-6">
+                    <h5>Bootstrap</h5>
+                    <div class="progress mb-4" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 95%">95%</div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-6">
+                    <h5>Web Dizayn</h5>
+                    <div class="progress mb-4" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 80%">80%</div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-6">
+                    <h5>Python</h5>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 45%">45%</div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-6">
+                    <h5>Django</h5>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 40%">40%</div>
+                    </div>
+                  </div>
+                  <div class="skills-button text-center">
+                    <a href="#" class="btn btn-danger">CV İndir</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+            <section class="my-work">
+              <div class="container">
+                <div class="work-title text-center">
+                  <h2 class="mb-5">Çalışmalarım</h2>
+                  <p>Detay için lütfen görsellere tıklayın.</p>
+                </div>
+                <div class="row p-2">
+                  <div class="col-md-4">
+                    <!-- Button trigger modal -->
+                    <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <img src="img/bg-5.jpg" alt="">
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header text-center">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Proje - 1</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <div id="carouselExampleIndicators" class="carousel slide">
+                                  <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                  </div>
+                                  <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                      <img src="img/bg-4.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="img/bg-3.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="img/bg-2.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                  </div>
+                                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                  </button>
+                                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                  </button>
+                                </div>
+                              </div>
+                              <div class="col-md-5">
+                                <div class="container">
+                                  <div class="row">
+                                    <div class="modal-details">
+                                    <h3>Proje bilgisi:</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, 
+                                      fugit fugiat facere assumenda debitis quidem iusto perferendis rem consequuntur sapiente culpa nobis cumque,
+                                      provident dignissimos impedit ad recusandae. Reiciendis, natus.</p>
+                                    <h3>Proje detayı:</h3>
+                                    <div class="d-flex">
+                                      <h5>Müşteri: </h5> <p> Vip Plus Temizlik Hizmetleri</p>
+                                    </div>
+                                    <div class="d-flex">
+                                      <h5>Teknoloji: </h5> <p> HTML5, CSS, Javascript, JQuery, PHP</p>
+                                    </div>
+                                    <div class="d-flex">
+                                      <h5>Sektör: </h5> <p> Temizlik Hizmetleri</p>
+                                    </div>
+                                    <div class="d-flex">
+                                      <h5>URL: </h5> <p><a href="https://www.vipplustemizlik.com/"> www.vipplustemizlik.com </a></p>
+                                    </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <!-- Button trigger modal -->
+                    <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <img src="img/bg-2.jpg" alt="">
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header text-center">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Proje - 1</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <div id="carouselExampleIndicators" class="carousel slide">
+                                  <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                  </div>
+                                  <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                      <img src="img/bg-4.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="img/bg-3.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="img/bg-2.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                  </div>
+                                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                  </button>
+                                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                  </button>
+                                </div>
+                              </div>
+                              <div class="col-md-5">
+                                <div class="container">
+                                  <div class="row">
+                                    <div class="modal-details">
+                                    <h3>Proje bilgisi:</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, 
+                                      fugit fugiat facere assumenda debitis quidem iusto perferendis rem consequuntur sapiente culpa nobis cumque,
+                                      provident dignissimos impedit ad recusandae. Reiciendis, natus.</p>
+                                    <h3>Proje detayı:</h3>
+                                    <div class="d-flex">
+                                      <h5>Müşteri: </h5> <p> Vip Plus Temizlik Hizmetleri</p>
+                                    </div>
+                                    <div class="d-flex">
+                                      <h5>Teknoloji: </h5> <p> HTML5, CSS, Javascript, JQuery, PHP</p>
+                                    </div>
+                                    <div class="d-flex">
+                                      <h5>Sektör: </h5> <p> Temizlik Hizmetleri</p>
+                                    </div>
+                                    <div class="d-flex">
+                                      <h5>URL: </h5> <p><a href="https://www.vipplustemizlik.com/"> www.vipplustemizlik.com </a></p>
+                                    </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <!-- Button trigger modal -->
+                    <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <img src="img/bg-1.jpg" alt="">
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header text-center">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Proje - 1</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <div id="carouselExampleIndicators" class="carousel slide">
+                                  <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                  </div>
+                                  <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                      <img src="img/bg-4.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="img/bg-3.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="img/bg-2.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                  </div>
+                                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                  </button>
+                                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                  </button>
+                                </div>
+                              </div>
+                              <div class="col-md-5">
+                                <div class="container">
+                                  <div class="row">
+                                    <div class="modal-details">
+                                    <h3>Proje bilgisi:</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, 
+                                      fugit fugiat facere assumenda debitis quidem iusto perferendis rem consequuntur sapiente culpa nobis cumque,
+                                      provident dignissimos impedit ad recusandae. Reiciendis, natus.</p>
+                                    <h3>Proje detayı:</h3>
+                                    <div class="d-flex">
+                                      <h5>Müşteri: </h5> <p> Vip Plus Temizlik Hizmetleri</p>
+                                    </div>
+                                    <div class="d-flex">
+                                      <h5>Teknoloji: </h5> <p> HTML5, CSS, Javascript, JQuery, PHP</p>
+                                    </div>
+                                    <div class="d-flex">
+                                      <h5>Sektör: </h5> <p> Temizlik Hizmetleri</p>
+                                    </div>
+                                    <div class="d-flex">
+                                      <h5>URL: </h5> <p><a href="https://www.vipplustemizlik.com/"> www.vipplustemizlik.com </a></p>
+                                    </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="tab-pane fade" id="v-pills-iletisim" role="tabpanel" aria-labelledby="v-pills-iletisim-tab" tabindex="0">
+            <section id="iletisim" class="iletisim">
+              <div class="row">
+                <div class="contack-title">
+                  <h1 class="text-center mb-5" style="font-weight: 800;">Not bırakmak ister misin?</h1>
+                </div>
+                <div class="col-7 pe-3">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Adınız Soyadınız</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Email Adres</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="Telephonenumber" class="form-control" id="floatingTelephoneNumber" placeholder="TelephoneNumber">
+                    <label for="floatingTelephoneNumber">Telefon Numaranız</label>
+                  </div>
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Notunuz</label>
+                  </div>
+                  <div class="contact-button mt-3">
+                    <button type="button" class="btn btn-lg">Gönder</button>
+                  </div>
+                </div>
+                <div class="col-5">
+                  <h2 class="mb-3">Adres Bilgileri</h2>
+                  <p>Başakşehir / İstanbul</p>
+                  <p><i class="bi bi-telephone-fill me-2"></i>+9 0541 304 54 65</p>
+                  <p class="d-flex"><i class="bi bi-envelope-fill me-2"></i>mehmet.korkmaz9292@gmail.com</p>
+                  <div class="follow">
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href=""><i class="bi bi-github"></i></a>
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+    </div>
+  
+
+
+
+
+
+
+
+<!-- SCRİPT CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
